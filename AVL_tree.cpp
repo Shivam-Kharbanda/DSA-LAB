@@ -26,7 +26,7 @@ Node *insert(Node *root,int val){
 
 }
 
-// inorder Traversal
+
 void inorder(Node *root){
     if(root!=nullptr){
         inorder(root->left);
